@@ -183,7 +183,7 @@ public class AdminActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 i = new Intent(getApplicationContext(), DialogActivity.class);
-                //startActivity(i);
+                startActivity(i);
             }
         });
         remainingtbtn.setOnClickListener(new View.OnClickListener() {
