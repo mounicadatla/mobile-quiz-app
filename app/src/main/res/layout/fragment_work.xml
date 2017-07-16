@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.datla.mounica2017summer.fragment.WorkFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/fragment_work_lv"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/holo_blue_dark"
+            android:text="This fragment is used for quiz!"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/work_quiz1_button"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="41dp"
+                android:text="Quiz1">
+
+            </Button>
+
+            <Button
+                android:id="@+id/work_quiz2_button"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="41dp"
+                android:text="Quiz2">
+
+            </Button>
+
+            <Button
+                android:id="@+id/work_quiz3_button"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="41dp"
+                android:text="Quiz3">
+
+            </Button>
+            <Button
+                android:id="@+id/work_quiz4_button"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="41dp"
+                android:text="Quiz4">
+
+            </Button>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/work_submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button8"
+            android:layout_marginTop="13dp"
+            android:background="@android:color/holo_blue_bright"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="Submit"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/work_bottom_text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:paddingTop="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="You can do it!"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
+
+
+</FrameLayout>

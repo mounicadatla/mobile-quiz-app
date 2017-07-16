@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mdatla1.mymobilepopquiz.DialogActivity">
+    <RadioGroup
+        android:id="@+id/activity_dialog_rdg"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+        <RadioButton
+            android:id="@+id/activity_view_pager_bt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="View Pager"/>
+        <RadioButton
+            android:id="@+id/activity_gesture_bt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="GestureActivity"/>
+        <RadioButton
+            android:id="@+id/activity_custom_dialog_bt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="CustomDialog"/>
+        <RadioButton
+            android:id="@+id/activity_broadcast_bt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="Broadcast"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/activity_dialog_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Ok"
+        android:gravity="center"        />
+
+</LinearLayout>
