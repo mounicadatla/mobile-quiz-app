@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mdatla1.mymobilepopquiz">
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -35,9 +34,9 @@
         <activity android:name=".GestureActivity" />
         <activity android:name=".BaseActivity" />
         <activity android:name=".viewPagerActivity" />
+        <service android:name=".TestService" />
 
-        <service android:name=".TestService"></service>
-
+        <activity android:name=".ListViewActivity"></activity>
     </application>
 
 </manifest>

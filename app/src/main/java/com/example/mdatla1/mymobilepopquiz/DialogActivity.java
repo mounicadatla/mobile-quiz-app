@@ -1,19 +1,11 @@
 package com.example.mdatla1.mymobilepopquiz;
 
-import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.EditText;
 import android.widget.RadioGroup;
 
-import butterknife.ButterKnife;
-import com.example.mdatla1.mymobilepopquiz.R;
-
-import static android.R.attr.onClick;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -75,6 +67,14 @@ public class DialogActivity extends BaseActivity{
                 customDialog.show();
 
                 break;
+
+            case R.id.activity_listview_bt :
+                Intent intent4 = new Intent(DialogActivity.this, ListViewActivity.class);
+                startActivity(intent4);
+
+                break;
+
+
             default:
 
         }
@@ -87,6 +87,8 @@ public class DialogActivity extends BaseActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dialog);
+
+
         ButterKnife.bind(this);
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -96,6 +98,7 @@ public class DialogActivity extends BaseActivity{
 
             }
         });
+
 
     }
 
